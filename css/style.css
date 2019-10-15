@@ -35,7 +35,8 @@ h1 {
     margin: 0;
     font-size: 3rem;
 }
-h2 {
+h2,
+h3 {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0 10px 15px 10px;
@@ -131,3 +132,64 @@ nav {
 }
 
 /* Table Layouts */
+.table {
+    display: table;
+    height: 100%;
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 10px;
+  }
+  .row {
+    display: table-row;
+ }
+ .col {
+    display: table-cell;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.col p {
+    font-size: 1rem;
+}
+
+/* Float Text */
+.wrapped {
+    display: block;
+    float: left;
+    padding: 5px;
+}
+
+/* Call to Action Button */
+.cta {
+    width: 11rem;
+    margin: auto;
+    text-align:center;
+}
+.cta-button {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    background: red;
+    color: white;
+    border-radius: 30px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    height: 4rem;
+    color: white;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+}
+.footer-left {
+    position: absolute;
+    left: 0.50%;
+}
+
+.footer-right {
+    position: absolute;
+    right: 0.50%;
+}
