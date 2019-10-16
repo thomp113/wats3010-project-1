@@ -70,15 +70,15 @@ ul.page-links {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
+}
   .page-links a:hover {
     background-color: gray;
     color: white;
-  }
+}
   .page-links .active {
     background-color:#ffbf00;
     color: black;
-  }
+}
 
 /* Social Links (nav bar) */
 ul.social-links {
